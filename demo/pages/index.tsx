@@ -1,11 +1,13 @@
 import { NextPage } from 'next'
-import { Modal, TokenPrimitive } from '@reservoir0x/reservoir-kit'
+import { Modal, TokenPrimitive, Progress } from '@reservoir0x/reservoir-kit'
+
 
 const Trigger = <button>Trigger</button>
 
 const Index: NextPage = () => {
   return (
     <Modal trigger={Trigger} title="title">
+<Progress></Progress>
       <TokenPrimitive
         img="https://lh3.googleusercontent.com/PzJGhIVImcDq79IJZmgAYgGXTX78jIM1dTdXqLmyD-FWDFrg-CIjzWbiPiAZHEdssS_XiwOj9silSxnvuYtX9GKNxMP28coj7v_Q=w533"
         name="#9854"
