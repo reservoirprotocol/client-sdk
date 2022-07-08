@@ -56,10 +56,10 @@ const Button = styled('button', {
           backgroundColor: '$gray5',
         },
       },
-      ghost:{
-backgroundColor:'transparent',
-p: 0,
-      }
+      ghost: {
+        backgroundColor: 'transparent',
+        p: 0,
+      },
     },
     corners: {
       rounded: {
@@ -75,6 +75,7 @@ p: 0,
       },
     },
     size: {
+      none: {},
       xs: {
         p: '$space$3',
         lineHeight: '16px',
