@@ -17,7 +17,7 @@ type Props = {
   trigger: ReactNode
 }
 
-export const Modal: FC<Props> = ({ title, children, trigger }) => {
+export const ModalError: FC<Props> = ({ title, children, trigger }) => {
   return (
     <Dialog trigger={trigger}>
       <Flex
@@ -38,7 +38,7 @@ export const Modal: FC<Props> = ({ title, children, trigger }) => {
           </Button>
         </DialogPrimitive.Close>
       </Flex>
-      {children}
+      There was an error with your transaction. Please try again.
       <Flex
         css={{
           mx: 'auto',
