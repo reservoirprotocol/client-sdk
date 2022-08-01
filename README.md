@@ -1,3 +1,6 @@
+### ⛔️ DEPRECATED
+This repository is now deprecated and archived. We moved this project to live within ReservoirKit, specifically ReservoirKit's underlying client package. Learn more about [ReservoirKit UI](https://docs.reservoir.tools/docs/reservoir-kit) and [ReservoirKit's Client package](https://docs.reservoir.tools/docs/rk-custom-setup)
+
 # @reservoir0x/client-sdk
 
 Client SDK for interacting with the Reservoir Router API
